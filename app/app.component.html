@@ -1,0 +1,4 @@
+<button (click)="show(1)">עובדים</button>
+<app-workers *ngIf="status==1"></app-workers>
+<button (click)="show(2)">תפקידים</button>
+<app-roles *ngIf="status==2"></app-roles>
